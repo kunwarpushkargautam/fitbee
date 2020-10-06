@@ -1,0 +1,134 @@
+.gymlists{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.gymlists h1{
+    font-size: 2rem;
+    background-color: #53db53e1;
+    padding: 20px 0px;
+}
+
+.carddeck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.gymlists .singlecard {
+    width: 16rem;
+    border: solid 2px none;
+    /* border-radius: 10px; */
+    margin: 2rem;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px gray;
+}
+.gymlists .singlecard .covercard{
+    width: 25rem;
+    object-fit: cover;
+    width: 100%;
+    height: 6rem;
+    
+
+}
+.gymlists .singlecard .profilecard{
+    margin-top: -3rem;
+    width: 5rem;
+    height:5rem ;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    border: solid 5px white;
+    margin-bottom: 1rem;
+}
+.gymlists .singlecard .cardrating{
+    display: flex;
+    justify-content:center;
+    margin-left:68%;
+    margin-top: -4rem;
+}
+
+.gymlists .singlecard .cardrating i{
+    font-size: 0.9rem;
+}
+.gymlists .singlecard .card-body-features{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem auto;
+}
+.gymlists .singlecard .card-body-features .cardservices{
+  padding: 0px ;
+  margin: 5px auto;
+}
+.gymlists .singlecard .card-body-features button{
+  padding: .4rem ;
+  margin: .4rem auto;
+  border-radius: 20px;
+  font-size: 1rem;
+  border-color:transparent;
+  box-shadow: 0px 0px 6px black;
+}
+
+.gymlists .singlecard .singlecardfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(196, 196, 196);
+    padding: 1rem 0.5rem;
+    
+    
+}
+.gymlists .singlecard .singlecardfooter span{
+    justify-content: center;
+    text-align: center;
+    padding: .3rem .5rem;
+}
+.gymlists .singlecard .singlecardfooter button{
+    padding: .3rem .5rem;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 1rem;
+}
+
+@media(max-width: 920px){
+    html{
+        font-size: 65%;
+    }
+    .gymlists .singlecard{
+        margin: .5rem;
+    }
+}
+
+@media(max-width: 380px){
+    html{
+        font-size: 66%;
+    }
+    .gymlists .singlecard{
+        margin: .5rem;
+    }
+}
+@media(max-width: 321px){
+    html{
+        font-size: 57%;
+    }
+    .gymlists .singlecard{
+        margin: .5rem;
+    }
+}
+@media(max-width: 280px){
+    html{
+        font-size: 45%;
+    }
+    .gymlists .singlecard{
+        margin: 1rem;
+    }
+  
+}

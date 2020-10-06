@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>user control</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/footer.css">
+  <style>
+    .member {
+      width: 290px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+
+    <a id="leftPart" href="dashboard.html">Fit💪🏽con</a>
+    <span id="rightPart">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="profile.html">Profile</a>
+      <a href="leaderboard.html">Leaderboard</a>
+      <a href="#">Fitcon Tv</a>
+
+      <a href="#">Chats</a>
+      <a href="#">Notification</a>
+      <a href="#">Logout</a>
+    </span>
+    <span id="Mobilemenu">
+      <hr />
+      <hr />
+      <hr /></span>
+
+  </header>
+
+  <div id="rightPartMobile">
+    <p id="close">+</p> <br /><br /><br /><br />
+    <a href="dashboard.html">
+      <p>Dashboard</p>
+    </a>
+    <a href="profile.html">
+      <p>Profile</p>
+    </a>
+    <a href="leaderboard.html">
+      <p>Leaderboard</p>
+    </a>
+    <a href="#">
+      <p>Fitcon Tv</p>
+    </a>
+
+    <a href="#">
+      <p>Chats</p>
+    </a>
+    <a href="#">
+      <p>Notification</p>
+    </a>
+    <a href="#">
+      <p>Logout</p>
+    </a>
+  </div>
+
+  <div id="customerReviwTopContainer">
+    <div id="customerReviwModal">
+      <p class="close" style="color: red;">+</p>
+      <div>
+        <form action="">
+          <textarea name="" id="" cols="28" rows="10" placeholder="write your review"></textarea>
+          <div id="userReviewRating">
+            <span style="color: gold;">☆</span>
+            <span style="color: gold;">☆</span>
+            <span style="color: gold;">☆</span>
+            <span style="color: gold;">☆</span>
+            <span style="color: gold;">☆</span>
+          </div>
+          <button style="background-color: #c0c0c0;color: black;border-color:transparent;">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="userControl">
+
+    <h1 style="padding: 1rem 0;margin-bottom:0px;background-color: rgb(97, 99, 99);color: #7ae5f3;text-align: center;">
+      Customer info
+      <div id="memberSearchContainer">
+
+        <select name="" id="searchByNameOrId">
+          <option value="memberid">member id</option>
+          <option value="membername">Member name</option>
+
+        </select>
+        <input type="search" id="searchMemberName" placeholder="search by member name or id">
+      </div>
+    </h1>
+    <div class="addnewmember" style="display: flex;padding:1rem;background-color:#0c1441; flex-direction:row; justify-content:center;margin:0px;">
+    <form style="margin: 0px;" action="">
+      <input type="text" style="margin:2px auto;background-color:#ffffff;font-size:1rem;border-radius: 0px;border-color:#ffffff;padding: 5px 8px;width: 70%;" id="addnew-member" placeholder="Add customers by id...">
+      <button style="margin:2px auto;background-color:#ffffff;padding:6px 5px ;border-color:rgb(255, 255, 255);border-radius: 0px; color: rgb(16, 56, 8);font-weight: 700;font-size: .9rem;">+&nbspAdd</button>
+    </form>  
+    </div>
+    
+    <div id="customers">
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+      <div class="member">
+        <img src="img/gymOwner.jpg" alt="">
+        <p class="MemberName moreButton">Arman Malik</p>
+        <hr>
+        <p><span>Member Id</span> <span class="MemberId">@Arman</span></p> <br>
+
+        <div class="moreInfo">
+
+          <p><span>plan Type</span> <span>Gold</span></p> <br>
+          <p><span>Mobile number</span> <span>8679002341</span></p> <br>
+          <p><span>Email</span> <span>pushker@123gmail.com</span></p> <br>
+          <p><span>Address</span> <span>Avanti vihar,Raipur</span></p> <br>
+          <p><span>plan value</span> <span>Rs2999</span></p> <br>
+          <p><span>Paid Amount</span> <span>Rs1999</span></p> <br>
+          <p><span>Unpaid Amount</span> <span>Rs1000</span></p> <br>
+          <p><span>Join date</span> <span>11/09/2020</span></p> <br>
+          <p><span>Expiry date</span> <span>11/12/2020</span></p> <br>
+          <p><span>Days Remaining</span> <span>20</span></p> <br>
+        </div>
+        <div>
+          <button class="customerReviwButton" style="background-color: aqua; color: black;">Review</button>
+          <button style="background-color: rgb(248, 27, 27);">Delete</button>
+          <select name="" id="">
+            <option value="">Offline</option>
+            <option value="">Online</option>
+          </select>
+          <button style="background-color: green;">Paid</button>
+
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+    <div class="footer" id="foo-ter">
+      <div class="footer-section">
+        <h2>Fitcon</h2>
+        <p>Here you can use rows and columns to organize your footer content.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse
+          quasi, veritatis totam voluptas nostrum.
+        </p>
+      </div>
+      <div class="footer-section">
+        <h2>Information</h2>
+
+        <p><a href="#">About Us</a></p>
+        <p><a href="#">contact us</a></p>
+        <p><a href="#">Help</a></p>
+
+      </div>
+
+
+
+
+
+      <div class="footer-section">
+        <h2 id="contact">Contact us</h2>
+
+        <p><a style="text-decoration: none;"><i class="fas fa-home"></i> New York, NY 10012, US</a></p>
+        <p><a id="call" href="tel:01125842975"><i class="fas fa-phone  "></i> 011-25842975 </a></p>
+        <p><a id="email" href="mailto:Officialgym@fitcoon.com"><i class="fas fa-envelope"></i>
+            Officialgym@fitcoon.com</a></p>
+      </div>
+
+      <div class="footer-section">
+        <h2>Get In Touch</h2>
+        <a href="#"><i class="fab fa-facebook-f  fa-lg  "></i></a>
+        <a href="#"><i class="fab fa-twitter  fa-lg  "></i></a>
+
+        <a href="#"><i class="fab fa-instagram fa-lg  "></i></a>
+      </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/customerControl.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

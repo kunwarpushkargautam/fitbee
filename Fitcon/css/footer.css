@@ -1,0 +1,32 @@
+/* footer part */
+.footer{
+
+    background-color: rgba(0, 0,0, 0.8);
+    color:white;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    }
+    .footer-section{
+      padding-top:1rem;
+      width: 17rem;
+      padding-bottom: 1rem;
+    }
+    .footer-section  a{
+      text-decoration: none;
+      color: white;
+    }
+    .footer-section p a:hover{
+    color:white;
+    text-decoration: underline;
+    }
+    #call:hover,#email:hover{
+    color: green;
+    }
+    a#call,a#email{
+      text-decoration: none;
+      color:white;
+    } 
+

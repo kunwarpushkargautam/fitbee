@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+
+        <a id="leftPart" href="dashboard.html">Fit💪🏽con</a>
+        <span id="rightPart">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="profile.html">Profile</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="#">Fitcon Tv</a>
+            <a href="#">Chats</a>
+            <a href="#">Notification</a>
+            <a href="#">Logout</a>
+        </span>
+        <span id="Mobilemenu">
+            <hr />
+            <hr />
+            <hr /></span>
+
+    </header>
+
+    <div id="rightPartMobile">
+        <p id="close">+</p> <br /><br /><br /><br />
+        <a href="dashboard.html">
+            <p>Dashboard</p>
+        </a>
+        <a href="profile.html">
+            <p>Profile</p>
+        </a>
+        <a href="leaderboard.html">
+            <p>Leaderboard</p>
+        </a>
+        <a href="#">
+            <p>Fitcon Tv</p>
+        </a>
+
+        <a href="#">
+            <p>Chats</p>
+        </a>
+        <a href="#">
+            <p>Notification</p>
+        </a>
+        <a href="#">
+            <p>Logout</p>
+        </a>
+    </div>
+    <main>
+        <div id="gym-profile-section">
+            <div style="display: inline-block;"></div>
+
+            <img src="../images/d.jpg" id="profile" alt="">
+            <button id="changeGymIcon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
+            <input type="file" id="editGymPhoto" style="display: none;" />
+        </div>
+        <div class="gymownericonedit">
+            <img src="../images/trainer.jpg" id="ownerlogo" alt="">
+            <button id="changeGymLogo"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                <p>Edit</p>
+            </button>
+            <input type="file" id="editGymLogo" style="display: none;" />
+        </div>
+
+        <div class="container-center">
+
+            <h1>Gym Details</h1>
+            <hr>
+
+
+            <div id="gym-details">
+                <div style="background-image: linear-gradient(#d6fc7f,#619c49);">
+                    <h4>Gym Name</h4>
+                    <input type="text" placeholder="Impact">
+                </div>
+                <div style="background-image: linear-gradient(#7ffcc2,#47978a);">
+                    <h4>Silver plan price</h4>
+                    <input type="text" placeholder="Rs 900">
+                </div>
+                <div style="background-image: linear-gradient(#7ffcc2,#47978a);">
+                    <h4>Gold plan price</h4>
+                    <input type="text" placeholder="Rs 1200">
+                </div>
+                <div style="background-image: linear-gradient(#7ffcc2,#47978a);">
+                    <h4>Platinum plan price</h4>
+                    <input type="text" placeholder="Rs 2000">
+                </div>
+                <div style="background-image: linear-gradient(#7ffcc2,#47978a);">
+                    <h4>Ruby plan price</h4>
+                    <input type="text" placeholder="Rs 2000">
+                </div>
+                <div style="background-image: linear-gradient(rgb(127, 216, 252),rgb(71, 132, 151));">
+                    <h4>Gallery Image 1</h4>
+                    <input type="file">
+                </div>
+                <div style="background-image: linear-gradient(rgb(127, 216, 252),rgb(71, 132, 151));">
+                    <h4>Gallery Image 2</h4>
+                    <input type="file">
+                </div>
+                <div style="background-image: linear-gradient(rgb(127, 216, 252),rgb(71, 132, 151));">
+                    <h4>Gallery Image 3</h4>
+                    <input type="file">
+                </div>
+                <div style="background-image: linear-gradient(rgb(127, 216, 252),rgb(71, 132, 151));">
+                    <h4>Gallery Image 4</h4>
+                    <input type="file">
+                </div>
+
+                <div style="background-image: linear-gradient(rgb(127, 216, 252),rgb(71, 132, 151));">
+                    <h4>Gallery Image 5</h4>
+                    <input type="file">
+                </div>
+                <div style="background-image: linear-gradient(rgb(127, 216, 252),rgb(71, 132, 151));"> 
+                    <h4>Gallery Image 6</h4>
+                    <input type="file">
+
+                </div>
+                <div style="background-image: linear-gradient(#302df7,rgb(43, 56, 126));">
+                    <h4 style="padding-top: 1rem; font-weight: 800; color: white;">Pay per Workout price</h4>
+                    <input type="text" value="Rs4500">
+                </div>
+
+                <div style="background-image: linear-gradient(#b3e6e7,rgb(130, 211, 214));">
+                    <h4 style="font-size: 1.5rem; color: bla;">Address</h4>
+                    <textarea rows="8" style="margin-left:8px; margin-right: 8px; color: rgb(1, 35, 68); line-height: 20px; font-size: 1.5rem;" placeholder="plot 21"></textarea>
+                </div>
+                <div style="background-image: linear-gradient(#b825b8,rgb(203, 112, 245));">
+                    <h4 style="color: white">Services</h4>
+                    <input type="text" placeholder="Zym"> <br>
+                    <input type="text" placeholder="Zumba"> <br>
+                    <input type="text" placeholder="Yoga"><br>
+                    <input type="text" placeholder="Yoga">
+                </div>
+
+            </div>
+
+
+            <div id="openCloseDayTime">
+                <h3>Open and Closing Time</h3>
+                <label for="monday">Monday</label> <br>
+                <div class="timerow">
+                    <select name="" id="">
+                        <option value="">
+                            open
+                        </option>
+                        <option value="">
+                            close
+                        </option>
+                    </select>
+                    <input type="time" name="" id="" value="08:00">
+                    <input type="time" name="" id="" value="22:00">
+                </div>
+                
+                <br>
+                <label for="tuesday">Tuesday</label> <br>
+                <div class="timerow">
+                    <select name="" id="">
+                        <option value="">
+                            open
+                        </option>
+                        <option value="">
+                            close
+                        </option>
+                    </select>
+                    <input type="time" name="" id="" value="08:00">
+                    <input type="time" name="" id="" value="22:00">
+                </div>
+                <br>
+                <label for="wednesday">Wednesday</label> <br>
+                <div class="timerow">
+                    <select name="" id="">
+                        <option value="">
+                            open
+                        </option>
+                        <option value="">
+                            close
+                        </option>
+                    </select>
+                    <input type="time" name="" id="" value="08:00">
+                    <input type="time" name="" id="" value="22:00">
+                </div>
+                <br>
+                <label for="Thursday">Thursday</label> <br>
+                <div class="timerow">
+                    <select name="" id="">
+                        <option value="">
+                            open
+                        </option>
+                        <option value="">
+                            close
+                        </option>
+                    </select>
+                    <input type="time" name="" id="" value="08:00">
+                    <input type="time" name="" id="" value="22:00">
+                </div>
+                <br>
+                <td><label for="Friday">Friday</label> <br>
+                    <div class="timerow">
+                        <select name="" id="">
+                            <option value="">
+                                open
+                            </option>
+                            <option value="">
+                                close
+                            </option>
+                        </select>
+                        <input type="time" name="" id="" value="08:00">
+                        <input type="time" name="" id="" value="22:00">
+                    </div>
+                    <br>
+                    <label for="saturday">Saturday</label> <br>
+                    <div class="timerow">
+                        <select name="" id="">
+                            <option value="">
+                                open
+                            </option>
+                            <option value="">
+                                close
+                            </option>
+                        </select>
+                        <input type="time" name="" id="" value="08:00">
+                        <input type="time" name="" id="" value="22:00">
+                    </div>
+                    <br>
+                    <label for="sunday">Sunday</label> <br>
+                    <div class="timerow">
+                        <select name="" id="">
+                            <option value="">
+                                open
+                            </option>
+                            <option value="">
+                                close
+                            </option>
+                        </select>
+                        <input type="time" name="" id="" value="08:00">
+                        <input type="time" name="" id="" value="22:00">
+                    </div>
+            </div>
+        </div>
+        <p class="gownerupdate"><a herf=""><button>Update</button></a></p>
+        </div>
+    </main>
+    <!-- footer -->
+<div class="footer" id="foo-ter">
+    <div class="footer-section">
+      <h2>Fitcon</h2>
+      <p>Here you can use rows and columns to organize your footer content.
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum.
+    </p>
+    </div>
+    <div class="footer-section">
+      <h2>Information</h2>
+  
+      <p><a href="#">About Us</a></p>
+      <p><a href="#">contact us</a></p>
+      <p><a href="#">Help</a></p>
+  
+    </div>
+   
+    
+
+    
+
+      <div class="footer-section">
+        <h2 id="contact">Contact us</h2>
+    
+        <p><a style="text-decoration: none;"><i class="fas fa-home"></i> New York, NY 10012, US</a></p>
+        <p><a id="call" href="tel:01125842975"><i class="fas fa-phone  "></i> 011-25842975 </a></p>
+        <p><a id="email"  href="mailto:Officialgym@fitcoon.com"><i class="fas fa-envelope"></i> Officialgym@fitcoon.com</a></p>
+      </div>
+
+      <div class="footer-section">
+        <h2>Get In Touch</h2>
+    
+        <a href="#"><i class="fab fa-facebook-f  fa-lg  "></i></a>
+        <a href="#"><i class="fab fa-twitter  fa-lg  "></i></a>
+      
+        <a href="#"><i class="fab fa-instagram fa-lg  "></i></a>
+      </div>
+  </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/gymProfile.js"></script>
+</body>
+
+</html>
