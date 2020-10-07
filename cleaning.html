@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- JS, Popper.js, and jQuery -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="./sass/landing.css">
+    <link rel="stylesheet" href="./Fitcon/css/cleaning.css">
+
+    <title>Our Commitment to clean</title>
+</head>
+<body class="bg-dark">
+    <div class="cover">
+         <!-- NAVIGATION BAR STARTS -->
+        <nav class="fixed-top">
+            <div class="logo">Brand</div>
+            <input type="checkbox" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a class="" href="#">Home</a></li>
+                
+                <li> <div>
+                     <a id="services">
+                      Services
+                    </a> 
+                   <div id="serviceOptions">
+                      <p><a href="#">Diet-Plan</a></p>
+                      <p><a href="#">Fit-मित्र</a></p>
+                      <p><a href="#">here</a></p>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">Leaderboard</a></li>
+                <li><a href="#">Fitcoon TV</a></li>
+                <li><a href="#" class="register-form"><button>SIGNUP</button></a></li>
+                <li><a href="#" class="login-form"><button>SIGNIN</button></a></li>
+            </ul>
+        </nav>
+         <!-- NAVIGATION BAR ENDS -->    
+
+
+<!-- register-login -->
+<div class="register-login">
+
+    <div id="register" class="fade modal">
+      <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5>Fitcon</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="ownerRegisterUserRegister">
+          <button id="userRegisterButton">User register</button>
+          <button id="OwnerRegisterButton">GymOwner register</button>
+        </div> 
+        <form action="" id="userRegister">
+        <label class="email" for="email" >Email</label><br>
+        <input class="input-email" type="Email"  name="email"  value=""><br>
+        <label class="mobile" for="mobile-no" >Mobile no.</label><br>
+        <input class="input-mobile" type="text"  name="mobileNo"  value=""><br>
+        <label class="password" for="password">password</label><br>
+        <input class="input-password" type="password"  name="" value=""><br>
+        <label class="confirm-password" for="confirm-password">confirm password</label><br>
+        <input class="input-confirm-password" type="password" name="confirm-password"value=""> <br>
+        <button type="submit" class="btn"  name="button">SIGN UP</button> <br>
+      </form>
+      <form action="" id="OwnerRegister">
+        <label class="Name" for="Name" >Name</label><br>
+        <input  type="text"  name="name"  value=""><br>
+        <label class="email" for="email" >Email</label><br>
+        <input class="input-email" type="Email"  name="email"  value=""><br>
+        <label class="mobile" for="mobile-no" >Mobile no.</label><br>
+        <input class="input-mobile" type="text"  name="mobileNo"  value=""><br>
+        <label class="password" for="password">password</label><br>
+        <input class="input-password" type="password"  name="" value=""><br>
+        <label class="confirm-password" for="confirm-password">confirm password</label><br>
+        <input class="input-confirm-password" type="password" name="confirm-password"value=""> <br>
+        <label  for="documemt">verification Document</label><br>
+        <input  type="file" style="border:none;margin-top: 1rem;" name="verificationDocument" value="">  <br>
+        <label  for="address" >Address</label><br>
+        <textarea style="margin-top: 1rem;" id="" ></textarea><br>
+        <button type="submit" class="btn"  name="button">SIGN UP</button> <br>
+      </form>
+        <P class="login-form mb-4 mt-3 text-center"  name="button">Existing user? <span style="color: red;">click here</span></p>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="login" class="fade modal">
+      <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+    <h5 class="modal-title text-white">Fitcon</h5>
+    <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+        <label class="email" for="email" >Email</label><br>
+        <input class="input-email"  type="Email" name="email"  value=""><br>
+        <label class="password" for="password">password</label><br>
+        <input class="input-password" type="password" name="" value=""><br>
+        <p  class="forget-form mt-3 text-right" >forget password?</p>
+        <button type="submit" class="btn" name="button">SIGN IN</button> <br>
+      </form>
+        <p class="register-form mt-3 mb-2 text-center" name="button">New user?
+         <span style="color: red;">click here</span></p>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="forget" class="fade modal">
+      <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+    <h5 class="modal-title text-white">Fitcon</h5>
+    <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+    <div class="modal-body">
+      <form action="">
+    <label class="email" for="email" >Email</label><br>
+    <input class="input-email" type="Email" name="email"  value=""><br>
+    <button type="submit" class="btn mt-3"  name="button">Send OTP</button> <br>
+    </form>
+    <p class="login-form mt-3 mb-4 text-center"  name="button">Back to
+     <span style="color: red;">login?</span></p>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    
+    <!-- register login end -->
+
+<div id="ourCommitments">
+    <div >
+        <h2>Our Commitment To Clean</h2>
+        <a href="index.html"> &lt;&lt; Home </a>
+    </div>
+    <div >
+        <img src="./images/clean.jpg" alt="">
+        <div>
+            <h2>KEEPING OUR GYM SAFE & SQUEAKY CLEAN</h2>
+            <p>Our members are our top priority! That’s why we’re following super -strict safety and 
+                cleaning protocols.So you can gym confidently knowing your gyms is squeaky clean.</p>
+        </div>
+    </div>
+    
+    <div>
+      <h2>WELCOME TO THE
+        FITCOON GYMS</h2>
+        <div>
+         <img src="./images/mask.jpg" alt="">
+         <h6>TEAM MEMBERS IN MASKS</h6>
+         <p>All PF Team Members are required to wear masks at all times while in-club.</p>
+        </div>
+        <div>
+            <img src="./images/touch.jpg" alt="">
+            <h6>TOUCHLESS CHECK-IN</h6>
+            <p>Avoid unnecessary contact by checking in using your digital ID card for check-in.</p>
+        </div>
+       
+        <div>
+            <img src="./images/sanetize.jpg" alt="">
+            <h6>CLEANING PLATFORM</h6>
+            <p>Each cleaning station throughout the club will be stocked with paper towels and disinfectant 
+                spray effective against COVID-19. Hand sanitizer stations will also be replenished regularly.  </p>
+           </div>
+           <div>
+               <img src="./images/cardio.png" alt="">
+               <h6>CARDIO DISTANCING</h6>
+               <p>Some cardio and strength machines are not available for 
+                   use to give our members a little extra breathing room.</p>
+           </div>
+    </div>
+
+    <div>
+       <h2 >PLEASE BE CLEANSIDERATE</h2>
+       <p>Our members play an important role in helping us keep our clubs clean 
+           and safe. So, here are some ways you can Be Cleansiderate.</p>
+        <div>
+            <img src="./images/mask.jpg" alt="">
+            <h6>DON’T FORGET YOUR MASK!</h6>
+            <p>We’re requiring all members to wear masks while in-GYMS so you can workout safely and confidently.</p>
+           </div>
+           <div>
+               <img src="./images//handwash.jpg" alt="">
+               <h6>SCRUB UP BEFORE & AFTER WORKING OUT</h6>
+               <p>Wash your hands for 20 seconds before and after using the equipment.</p>
+           </div>
+          
+           <div>
+               <img src="./images/socialdistancing.jpg" alt="">
+               <h6>PRACTICE SOCIAL FITNESSING</h6>
+               <p>Keep a safe distance by putting an imaginary treadmill, or two, between you and others.  </p>
+              </div>
+              <div>
+                  <img src="./images/ill.jpg" alt="">
+                  <h6>NOT FEELING GREAT?</h6>
+                  <p>Take a rest day or try a workout at home</p>
+              </div>
+              <div>
+                <img src="./images/fun.png" alt="">
+                <h6>HAVE FUN WITH SAFE ENVIRONMENT</h6>
+                <p>Give encouragement without touching</p>
+            </div>
+
+    </div>
+</div>
+  
+
+
+
+
+
+
+<!-- footer sectionn -->
+
+<footer class="page-footer font-small  text-white lighten-3 pt-4 black">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left black">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mr-auto my-md-2 my-0 mt-2 mb-1">
+  
+          <!-- Content -->
+          <h2 class="font-weight-bold text-uppercase mb-3">fitcoon</h2>
+          <p class="small">Here you can use rows and columns to organize your footer content.</p>
+          <p class="small my-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+            esse
+            quasi, veritatis totam voluptas nostrum.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-1 mb-1">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+  
+          <ul class="list-unstyled small ">
+            <li>
+              <p>
+                <a href="#!" class=" "></a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">ABOUT US</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">CONTACT US</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">HELP!!</a>
+              </p>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix py-0 w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-8 col-lg-4 mx-auto  my-0 mt-2 mb-1 d-flex justify-content-between ">
+  
+          <!-- Contact details -->
+          
+  
+          <ul class="list-unstyled small ml-0 float-left">
+              <li>
+                <h5 class=" text-uppercase mb-2 ">Address</h5>
+              </li>
+            <li>
+              <p>
+                <i class="fas fa-home mr-3 "></i> New York, NY 10012, US</p>
+            </li>
+            <li>
+              <p> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Officialgym@fitcoon.com" class="footer" target="_blank">
+                <i class="fas fa-envelope mr-3  float-left"></i> Officialgym@fitcoon.com</a></p>
+                
+            </li>
+            <li>
+              <p>
+               <!-- <a  herf="tel:+919113762945"><i class="fas fa-phone mr-3 float-left"></i> + 01 234 567 88</p></a>  -->
+               <a href="tel:919113762945"><i class="fas fa-phone mr-3 float-left"></i>Call infoware</a>
+            </li>
+            <li>
+              <p><a href="https://api.whatsapp.com/send?phone=+919424197232&text=I%20want%20to%20talk%20to%20you%20Infoware" target="_blank"><i class="fas fa-print mr-3 float-left"></i>whatsapp Us</a>
+                </p>
+            </li>
+          </ul>
+          <div class="my-1 d-flex flex-column ">
+  
+            <!-- Social buttons -->
+            <ul class="list-unstyled text-center float-right ">
+                <li>
+                    <p class="text-uppercase mb-1 text-warning small text-center">Follow</p>
+                </li>
+                <li>
+                    <a type="button" class="btn-floating btn-fb py-1">
+                        <i class="fab fa-facebook-f  fa-lg  "></i>
+                    </a>
+                </li>
+                <li>
+                    <a type="button" class="btn-floating btn-tw py-1 ">
+                        <i class="fab fa-twitter    "></i>
+                    </a>
+                </li>
+                <li>
+                    <a type="button" class="btn-floating btn-gplus py-1">
+                        <i class="fab fa-google-plus-g  "></i>
+                    </a>
+                </li>
+                <li>
+                    <a type="button" class="btn-floating btn-dribbble py-1">
+                        <i class="fab fa-instagram fa-lg  "></i>
+                      </a>
+                </li>
+
+
+            </ul>
+
+          </div>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class=" w-100 d-md-none my-1 py-1">
+  
+
+  
+      </div>
+
+  
+    </div>
+
+    <div class="footer-copyright text-center py-1 ">© 2020 Copyright:
+      <a href="" class="text-white"> Fitcoon.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+
+<!-- footer sectionn end -->
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ <!-- JS, Popper.js, and jQuery -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script> 
+
+<script src="cleaning.js"></script>
+</body>
+</html>

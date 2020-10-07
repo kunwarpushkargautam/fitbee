@@ -1,0 +1,84 @@
+#ourCommitments div{
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+#ourCommitments div:nth-child(1){
+    background-image:linear-gradient(to right,yellow,crimson);
+    margin-top: 4rem;
+}
+
+#ourCommitments div:nth-child(1) a{
+    color: mediumspringgreen;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#ourCommitments div:nth-child(1) a:hover{
+    color: yellow;
+}
+#ourCommitments div:nth-child(2) {
+    background-image: linear-gradient(to right,crimson,blue);
+}
+#ourCommitments div:nth-child(2) img{
+    min-width: 10rem;
+    min-height: 10rem;
+     width: 20%;
+     height: 20%;
+   border-radius: 100%;
+}
+#ourCommitments div:nth-child(2) div{
+  min-width: 18rem;
+  width: 60%;
+   margin: auto;
+}
+#ourCommitments div:nth-child(2) div h2{
+    font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#ourCommitments div:nth-child(3),#ourCommitments div:nth-child(4){
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    color: black;
+}
+#ourCommitments div:nth-child(3) div,#ourCommitments div:nth-child(4) div{
+    margin: 0;
+    width: 17rem;
+    background-image: none;
+    background-color: royalblue;
+}
+#ourCommitments div:nth-child(3) div img,#ourCommitments div:nth-child(4) div img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-bottom: 0.3rem;
+}
+#ourCommitments div:nth-child(3) div h6,#ourCommitments div:nth-child(4) div h6{
+    color: lime;
+}
+#ourCommitments div:nth-child(3) div p,#ourCommitments div:nth-child(4) div p{
+    color:white;
+    font-size: 0.9rem;
+}
+#ourCommitments div:nth-child(4){
+    background-image: linear-gradient(to right ,green,blue);
+    
+}
+#ourCommitments div:nth-child(4) div{
+    background-image: none;
+    background-color: transparent;
+    width: 15rem;
+}
+#ourCommitments div:nth-child(4)  h2,#ourCommitments div:nth-child(3)  h2{
+    color: white;
+    width: 100%;
+    padding:0.3rem 1.5rem 0.3rem 1rem;
+    text-shadow: 4px 4px darkblue;
+}
+#ourCommitments div:nth-child(4)  p{
+    width: 100%;
+    color: white;
+}
